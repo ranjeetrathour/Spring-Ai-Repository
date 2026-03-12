@@ -14,6 +14,7 @@ public class ChatController {
     private final OllamaService aiService;
 
     public ChatController(OllamaService aiService) {
+
         this.aiService = aiService;
     }
 
